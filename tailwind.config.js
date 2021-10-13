@@ -8,21 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bordo: {
-          extralight: "#ed246b",
-          light: "#952A50",
-          dark: "#611b34",
-        },
-        gray: {
-          lightback: "#f6fbfe",
-        },
-        rink: {
-          light: "#fd4367",
-          dark: "#c22140",
-        },
       },
       fontFamily: {
-          custom: ["Roboto", "Helvetica Neue", "Arial", "sans-serif"],
+          custom: ["Jost", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
       },
       right: {
         "9/10": "90%",
@@ -34,6 +22,9 @@ module.exports = {
       letterSpacing: {
         widestest: "0.5em",
       },
+      fontSize: {
+        sizeHeader: ["55px", "67px"],
+      }
     },
   },
   variants: {

@@ -1,13 +1,12 @@
 import ParticleBackground from "./ParticleBackground";
+import Head from "./Head"
 
 const App = () => {
 
     return (
-        <div className="w-100 h-100">
+        <div className="text-white font-custom">
+            <Head />
             <ParticleBackground />
-            <h2>
-                Hello
-            </h2>
         </div>
     );
 }
