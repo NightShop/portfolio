@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        darkBlue: "#12092d",
       },
       fontFamily: {
           custom: ["Jost", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
@@ -24,7 +25,9 @@ module.exports = {
       },
       fontSize: {
         sizeHeader: ["55px", "67px"],
-      }
+        sizeUnderHeader: ["23px", "34px"],
+        sizeHeaderSmall: ["44px", "51px"],
+      },
     },
   },
   variants: {
