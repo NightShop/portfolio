@@ -14,9 +14,11 @@ const ProjectInfo = (props) => {
             <h1>{title}</h1>
             <p>{description}</p>
             <img className="h-20 w-20" src={imageUrlNew} alt="project-screenshot" />
-            {tags.map((tag) => (
-                <Icon id={tag} />
-            ))}
+            <div className="flex m-4">
+                {tags.map((tag) => (
+                    <Icon id={tag} />
+                ))}
+            </div>
         </div>
     );
 };

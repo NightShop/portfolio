@@ -8,7 +8,7 @@ const projectsData = {
         with Firestore and authentication is set with Firebase AUTH. Each account has acces to his documents. Blog is visible to all but
         posts can only be edited from admin account directly
         from site. I used React, Webpack, Tailwind. It's mobile friendly.`,
-        tags: ["html", "css", "firestore", "tailwind", "react"],
+        tags: ["html", "javascript", "firebase", "tailwind", "react"],
     },
     wheresWaldo: {
         title: "Where's Waldo",
@@ -18,7 +18,7 @@ const projectsData = {
         description: `Made with React and Firestore Database. Deployed on Firebase Hosting.
         All game data is stored on Firebase, new levels can be added with only updating database
         through Firebase Console. Top scores list is included. It is mobile friendly`,
-        tags: ["html", "css", "firestore", "react"],
+        tags: ["html", "css", "javascript", "firebase", "react", "webpack"],
     },
     personalWebTool: {
         title: "predecessor of Optimizer",
@@ -27,14 +27,14 @@ const projectsData = {
         imageUrl: "https://i.imgur.com/Nnzd0bM.png",
         description: `First substancial project I made in VS with C#, MVC pattern. 
         It had a simple authorization (hashed password saved in code) for admin area. It contains CRUD methods.
-        It has publicly accesible blog with categories filtering and privately accesible:
+        It has publicly accesible blog with categories filtering and privately accesible: \n
         -blog editor -> simple custom cms
         -blog categories editor -> CRUD
         -gratefullness diary -> CRUD
         -habits tracker -> creating habits to which you assign points and sum is calculated for each day.
         
         Data is stored in SQL with Entity Framework.`,
-        tags: ["C#", ".NET", "entityFramework"],
+        tags: ["csharp", ".NET", "ENTITY FRAMEWORK"],
     },
     toDo: {
         title: "To Do",
@@ -43,7 +43,7 @@ const projectsData = {
         imageUrl: "toDo",
         description: `Project I made for tracking goals. It has categories
         and filtering, user accounts with connected data. It is made only for mobile.`,
-        tags: ["html", "css", "webpack"],
+        tags: ["html", "css", "javascript", "webpack", "firebase"],
     },
     pixelBoy: {
         title: "Pixel Boy Doodle",
@@ -51,7 +51,7 @@ const projectsData = {
         code: "https://github.com/NightShop/Pixel-Boy-Doodles",
         imageUrl: "pixelBoy",
         description: "Cute little drawing game in pixel style.",
-        tags: ["html", "css"],
+        tags: ["html", "css", "javascript"],
     },
 };
 
