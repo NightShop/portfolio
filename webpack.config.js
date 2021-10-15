@@ -2,12 +2,21 @@ const path = require("path");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 let mode = "development";
 const pluginsArr = [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
         template: "./src/index.html",
+    }),
+    new CopyWebpackPlugin({
+        patterns: [
+            {
+                from: path.resolve(__dirname, "src/favicon"),
+                to: path.resolve(__dirname, "dist"),
+            },
+        ],
     }),
 ];
 
