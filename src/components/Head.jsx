@@ -9,7 +9,7 @@ const Head = (props) => {
                 <br />
                 Engineer
             </h1>
-            <p className="text-sizeUnderHeader font-extralight m-2">Hi. I strive for writing more preformant, beautiful styled code every day.</p>
+            <p className="text-sizeUnderHeader font-extralight m-2">Mechanical Engineer by degree, Web developer by passion.</p>
             <div className="w-full flex justify-around sm:flex-none sm:w-max">
                 <ButtonHead setSection={setSectionProjects} title="EXPLORE WORK" />
                 <ButtonHead setSection={setSectionAbout} title="VIEW PROFILE" />
