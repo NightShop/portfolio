@@ -52,7 +52,12 @@ const About = (props) => {
                         <FaLinkedin />
                         <p className="ml-4">Linkedin</p>
                     </a>
-                    <a className="hover:underline m-5" href="https://drive.google.com/file/d/1bSS95Z1CVmP1sgiKS3JkZarFgctWjsUn/view?usp=sharing">
+                    <a
+                        className="hover:underline m-5"
+                        href="https://drive.google.com/file/d/1bSS95Z1CVmP1sgiKS3JkZarFgctWjsUn/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         CV
                     </a>
                 </div>

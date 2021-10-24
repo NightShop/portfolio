@@ -16,8 +16,9 @@ const projectsData = {
         code: "https://github.com/NightShop/wheresWaldo",
         imageUrl: "wheresWaldo-small",
         description: `Made with React and Firestore Database. Deployed on Firebase Hosting.
-        All game data is stored on Firebase, new levels can be added with only updating database
-        through Firebase Console. Top scores list is included. It is mobile friendly`,
+        All game data is stored on Firebase, new levels can be added with updating only database
+        through Firebase Console. Top scores list is included. It is mobile friendly.
+        You play by selecting a level with characters to find shown at the top. Fastest players with their times are shown on leaderboard.`,
         tags: ["HTML", "CSS", "JavaScript", "Firebase", "React", "Webpack"],
     },
     personalWebTool: {
@@ -29,7 +30,7 @@ const projectsData = {
         It had a simple authorization (hashed password saved in code) for admin area. It contains CRUD methods.
         It has publicly accesible blog with categories filtering and privately accesible blog editor with simple custom cms,
         blog categories editor, gratefullness diary and habits tracker with which you can create habits to which you assign points
-        and sum is calculated for each day (CRUD functions). 
+        and sum is calculated for each day (CRUD functions). Project is not deployed, only screenshots are available.
         
         Data is stored in SQL with Entity Framework.`,
         tags: ["C#", ".NET", "Entity Framework"],
