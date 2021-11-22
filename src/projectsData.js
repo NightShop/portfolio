@@ -7,8 +7,8 @@ const projectsData = {
         description: `Succesor of Personal Web Tool V1 also made for personal development. Data is stored
         with Cloud Firestore (NoSQL) and authentication is set with Firebase Authentication. Each account has acces to his data. 
         Blog is visible to all but posts can only be edited from admin account directly
-        from site. I used React, Webpack, Tailwind. It's mobile friendly.`,
-        tags: ["HTML", "JavaScript", "Firebase", "tailwindcss", "React"],
+        from site. I used React, Webpack, Tailwind. It's mobile friendly and made in 'brutalist' style`,
+        tags: ["HTML", "JavaScript", "Firebase", "tailwindcss", "React", "Webpack"],
     },
     wheresWaldo: {
         title: "Where's Waldo",

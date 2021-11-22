@@ -7,7 +7,7 @@ const Head = (props) => {
             <h1 className="text-sizeHeaderSmall font-extralight md:text-sizeHeader m-2">
                 Boštjan Zupan,
                 <br />
-                Engineer
+                Front-End Developer
             </h1>
             <p className="text-sizeUnderHeader font-extralight m-2">Mechanical Engineer by degree, Web developer by passion.</p>
             <div className="w-full flex justify-around sm:flex-none sm:w-max">

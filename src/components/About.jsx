@@ -15,6 +15,8 @@ const About = (props) => {
         "Git",
         "C#",
         "Python",
+        "Cypress",
+        "Docker",
     ];
     return (
         <div>
