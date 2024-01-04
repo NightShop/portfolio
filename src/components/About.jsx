@@ -23,10 +23,10 @@ const About = (props) => {
             <div className="flex flex-wrap border-b-2 mb-10 mx-4">
                 <div className="text-2xl md:mx-6 mb-10 lg:w-2/3">
                     <p>
-                        Deeply invested in the life-long learning mentality, I'm developer who always tries to optimize workflow and make better product.
-                        Currently I'm learning back-end technologies for my future workspace.
+                        Deeply invested in the life-long learning mentality, I am developer who always tries to
+                        optimize workflow and make better product. Currently I have been learning back-end technologies for my future workspace.
                         My focus on last job was creating web portal on the Typescript stack of Angular and from my previous background as
-                        a mechanical engineer I'm well acquainted to bringing out solutions to complex problems.
+                        a mechanical engineer I`&apos;`m well acquainted to bringing out solutions to complex problems.
                         I gladly dwell in new languages and frameworks as I did in past in C, C#, Python, Go, Docker, and Arduino programming.
                         Some of my projects can be found on https://github.com/NightShop.
 
