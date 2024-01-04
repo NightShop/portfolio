@@ -6,15 +6,12 @@ const About = (props) => {
     const skills = [
         "HTML",
         "CSS",
-        "tailwindcss",
         "JavaScript",
         "React",
         "Firebase",
         "Webpack",
         "Github",
         "Git",
-        "C#",
-        "Python",
         "Cypress",
         "Docker",
     ];
@@ -26,13 +23,14 @@ const About = (props) => {
             <div className="flex flex-wrap border-b-2 mb-10 mx-4">
                 <div className="text-2xl md:mx-6 mb-10 lg:w-2/3">
                     <p>
-                        Deeply invested in the life-long learning mentality, I am a front-end developer
-                        who always tries to optimize workflow and make better product.
-                        My focus is in creating websites on the JavaScript stack of
-                        React and Firebase and from my background in professional career as a mechanical engineer I am well
-                        acquainted to bringing out solutions to complex problems.
-                        I gladly dwell in new languages and frameworks as I did in past in C, C#, Python
-                        and Arduino programming.
+                        Deeply invested in the life-long learning mentality, I'm developer who always tries to optimize workflow and make better product.
+                        Currently I'm learning back-end technologies for my future workspace.
+                        My focus on last job was creating web portal on the Typescript stack of Angular and from my previous background as
+                        a mechanical engineer I'm well acquainted to bringing out solutions to complex problems.
+                        I gladly dwell in new languages and frameworks as I did in past in C, C#, Python, Go, Docker, and Arduino programming.
+                        Some of my projects can be found on https://github.com/NightShop.
+
+                        Preferably looking for full stack roles.
                     </p>
                 </div>
                 <div className="w-1/4 text-4xl ml-8 mb-10 justify-between">
