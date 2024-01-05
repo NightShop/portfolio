@@ -4,8 +4,6 @@ import Icon from "./Icon";
 const About = (props) => {
     const { setSectionIntro, setSectionProjects } = props;
     const skills = [
-        "HTML",
-        "CSS",
         "JavaScript",
         "React",
         "Firebase",
@@ -14,6 +12,10 @@ const About = (props) => {
         "Git",
         "Cypress",
         "Docker",
+        "Angular",
+        "TypeScript",
+        "Golang",
+        "PostgreSQL",
     ];
     return (
         <div>
@@ -54,7 +56,7 @@ const About = (props) => {
                     </a>
                     <a
                         className="hover:underline m-5"
-                        href="https://drive.google.com/file/d/1bSS95Z1CVmP1sgiKS3JkZarFgctWjsUn/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1CzJkyOjgsswQ307-pAjzZj1RK9ZRn1dP/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >
