@@ -1,12 +1,12 @@
 const projectsData = {
     fasunga: {
-        title: "Fasunga (under construction)",
+        title: "Fasunga",
+        subtitle: "work in progress",
         live: "https://github.com/NightShop/fasunga-project",
         code: "https://github.com/NightShop/fasunga-project",
         imageUrl: "groceries",
         description: `Backend of an application that persons of the same household can use to share shopping list. Language is Go,
-        database is PostgreSQL, PASETO authentication is used.
-        Deployment will be handled with Docker. It will be hosted on my own spare PC. Frontend will be built with React or htmlx`,
+        database is PostgreSQL, PASETO authentication is used. (work in progress)`,
         tags: ["Golang", "PostgreSQL", "Docker"],
     },
     optimizer: {

@@ -27,10 +27,9 @@ const About = (props) => {
                     <p>
                         Deeply invested in the life-long learning mentality, I am developer who always tries to
                         optimize workflow and make better product. Currently I have been learning back-end technologies for my future workspace.
-                        My focus on last job was creating web portal on the Typescript stack of Angular and from my previous background as
-                        a mechanical engineer I`&apos;`m well acquainted to bringing out solutions to complex problems.
+                        My focus on my last job was creating web portal on the Typescript stack of Angular and from my previous background as
+                        a mechanical engineer I am well acquainted with bringing out solutions to complex problems.
                         I gladly dwell in new languages and frameworks as I did in past in C, C#, Python, Go, Docker, and Arduino programming.
-                        Some of my projects can be found on https://github.com/NightShop.
 
                         Preferably looking for full stack roles.
                     </p>

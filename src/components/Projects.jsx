@@ -10,6 +10,7 @@ const Projects = (props) => {
                 <ProjectInfo
                     key={id}
                     title={project.title}
+                    subtitle={project.subtitle}
                     description={project.description}
                     imageUrl={project.imageUrl}
                     tags={project.tags}
